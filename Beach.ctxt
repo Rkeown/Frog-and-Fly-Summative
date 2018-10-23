@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Beach
+comment0.text=\r\n\ 5\ marks\r\n
+comment1.params=
+comment1.target=Beach()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=n
+comment3.target=void\ addFood(int)
+comment3.text=\r\n\ Adds\ n\ Food\ objects\ to\ the\ world\r\n
+comment4.params=
+comment4.target=void\ update()
+numComments=5

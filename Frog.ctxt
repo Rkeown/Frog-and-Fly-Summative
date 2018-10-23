@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Frog
+comment0.text=\r\n\ 10\ marks\r\n
+comment1.params=
+comment1.target=Frog()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ frogWalk()
+comment3.text=\r\n\ frogWalk\ makes\ the\ frog\ walk(big\ suprise)\ at\ the\ pace\ set\r\n\ by\ speed\ which\ is\ chosen\ randomly\ between\ 4\ and\ 8\r\n\ @There\ are\ no\ parameters\r\n\ @return\ there\ is\ no\ return\r\n
+comment4.params=
+comment4.target=void\ wobble()
+comment4.text=\r\n\ wobble\ makes\ the\ frog\ wobble\ when\ it\ walks\r\n\ it\ does\ so\ by\ choosing\ a\ random\ number\ between\ 0\ and\ 100\r\n\ and\ if\ it\ is\ less\ then\ 35\ then\ 50%\ of\ the\ time\ it\ is\ less\ 35\r\n\ it\ will\ turn\ either\ 15\ degrees\ or\ -15\ degrees\r\n\ @param\ there\ are\ no\ parameters\r\n\ @there\ is\ no\ return\r\n
+comment5.params=
+comment5.target=void\ wall()
+comment6.params=
+comment6.target=void\ consume()
+numComments=7
