@@ -16,6 +16,10 @@ public class scoreboard extends Actor
      *  @param there are no parameters
      *  @return there are no returns
      */
+    /**
+     * scroreboard somehow through some wizard magic half sets up the scoreboard
+     * @param there are no parameters
+     */
     public scoreboard()
     {
         points = 0;
@@ -28,6 +32,11 @@ public class scoreboard extends Actor
      * adds stuff to the set up scoreboard
      * @param there are no parameters
      * @return returns points to the points int
+     */
+    /**
+     * addToScore tells the program to update the scoreboard
+     * @param there are no parameters
+     * @return there are no returns
      */
     public void addToScore()
     {

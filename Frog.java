@@ -8,6 +8,11 @@ public class Frog extends Creature
     // The Frog's speed ...
     private int speed;
     
+    /**
+     *  Frog sets the frog's speed to a random number between 4 and 8
+     *  @param there are no parameters
+     *  @return there are no returns
+     */
     public Frog()
     {        
         // set the Frog's speed to a random number between 4 and 8
@@ -44,6 +49,11 @@ public class Frog extends Creature
      * @There are no parameters
      * @return there is no return
      */
+    /**
+     * frogWalk tells the frog to move at the speed the method Frog decided
+     * @param there are on parameters
+     * @return there are no returns
+     */
     private void frogWalk()
     {
         move(speed);
@@ -56,6 +66,12 @@ public class Frog extends Creature
      * it will turn either 15 degrees or -15 degrees
      * @param there are no parameters
      * @there is no return
+     */
+    /**
+     * wobble causes the frog to wobble whilst moving and to change directions 
+     * randomly
+     * @param there are no parameters
+     * @return there are no returns
      */
     private void wobble()
     {
@@ -71,7 +87,11 @@ public class Frog extends Creature
             }
         }
     }
-    
+    /**
+     * wall tells the frog to turn 7 degrees if it hits the edge of the world
+     * @param there aer no parameters
+     * @return there are no returns
+     */
     private void wall()
     {
         if(isAtEdge())
@@ -79,7 +99,12 @@ public class Frog extends Creature
             turn(7);
         }
     }
-    
+    /**
+     * consume tells the game to remove the fly and stop the program if the 
+     * frog touches the fly
+     * @param there are no parameters
+     * @return there are no returns
+     */
     private void consume()
     {
         if(isTouching(Fly.class) == true)

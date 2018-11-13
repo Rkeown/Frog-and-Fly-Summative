@@ -3,6 +3,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Food extends Actor
 {
+    /**
+     * Food loads five pieces of fruit at random locations
+     * @param there are no parameters
+     * @return there are no returns
+     */
     
     public Food()
     {

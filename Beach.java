@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+    import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * 5 marks
@@ -6,6 +6,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Beach extends World
 {
     private scoreboard score;
+    /**
+     *  Beach just sets up the majority of the game except the fruit
+     *  @param there are no parameters
+     *  @return there are no parameters
+     */
     public Beach()
     {    
        super(800, 600, 1); 
@@ -42,6 +47,11 @@ public class Beach extends World
             addObject(new Food(),x,y);
         }
     }
+    /**
+     * update tells the program to update the scoreboard
+     * @param there are no parameters
+     * @return it returns the updated scoreboard
+     */
     public void update()
     {
         score.addToScore();

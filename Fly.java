@@ -10,6 +10,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Fly extends Creature
 {
     private int facing;
+    /**
+     *  Fly tells the fly sprite to face a random direction
+     *  @param there are no parameters
+     *  @return there are no returns
+     */
+    
     public Fly()
     {
         /*
@@ -45,6 +51,12 @@ public class Fly extends Creature
      * @param none there are no parameters
      * @return the method returns inputs to the fly
      */
+    /**
+     *  checkKeys tell the program to move the fly when w, a, or s are pressed
+     *  and moves the fly in the respective direction
+     *  @param there are no parameters
+     *  @return there are no returns
+     */
     private void checkKeys()
     {
         if(Greenfoot.isKeyDown("w"))
@@ -64,6 +76,12 @@ public class Fly extends Creature
      * eatFruit checks to see ifthe fly is touching a piece of fruit it removes it
      * @param there are no parameters
      * @return There are no returns
+     */
+    /**
+     *  eatFruit tells the program to remove a piece of fruit when the fly is
+     *  touching it
+     *  @param there are no parameters
+     *  @return there are no returns
      */
     private void eatFruit()
     {

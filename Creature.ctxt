@@ -2,4 +2,5 @@
 comment0.target=Creature
 comment1.params=
 comment1.target=boolean\ atEdgeOfWorld()
+comment1.text=\r\n\ \ atEdgeOfWorld\ checks\ to\ see\ if\ the\ creatures\ are\ touching\ the\ edge\ of\r\n\ \ the\ world\r\n\ \ @param\ there\ is\ a\ boolean\ for\ true\ or\ false\r\n\ \ @return\ there\ are\ no\ returns\r\n
 numComments=2
